@@ -1,7 +1,7 @@
 # import the library
 import urllib
-
 import re
+
 
 print (dir(urllib))
 
@@ -9,8 +9,6 @@ print (dir(urllib))
 urlopen = urllib.urlopen("http://www.heise.de")
 print (urllib)
 print (urlopen.headers)
-help(urllib.urlopen)
-
 print urlopen.read()
 
 l = dir(re)
